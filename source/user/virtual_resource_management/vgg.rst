@@ -88,7 +88,7 @@ Defines a continuous IPv4 range:
         TYPE = "IP4",
         IP   = "10.0.0.150",
         MAC  = "02:00:0a:00:00:96",
-        SIZE = "51",
+        SIZE = "51"
     ]
 
 IPv6 Address Range
@@ -213,13 +213,13 @@ Create a file with the network configuration: priv.net
     AR=[
         TYPE = "IP4",
         IP   = "10.0.0.10",
-        SIZE = "100",
+        SIZE = "100"
     ]
 
     AR=[
         TYPE = "IP4",
         IP   = "10.0.0.200",
-        SIZE = "10",
+        SIZE = "10"
     ]
 
 Once the file has been created, we can create the VNET executing:
